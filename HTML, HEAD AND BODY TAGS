@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/5641997/is-it-necessary-to-write-head-body-and-html-tags?
+ANSWER: It is not mandatory to use head and body tags, as this was not used in earlier versions. But it is a good practice to use head and body tags.
+
+
+W3C Validation says it's valid.
