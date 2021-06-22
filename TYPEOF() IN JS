@@ -1,0 +1,29 @@
+?
+VM174:1 Uncaught SyntaxError: Unexpected token '='
+typeof(symbol) - "undefined"
+typeof(Object) "function"
+typeof(JavaScript) "undefined"
+typeof(JSON) "object"
+typeof(+)=>VM343:1 Uncaught SyntaxError: Unexpectedtoken ')'
+typeof(operator)=> "undefined"
+typeof(Number) =>"function"
+typeof(undefined) =>"undefined"
+typeof(prototype) =>"undefined"
+typeof (NaN) =>"number"
+typeof({}) =>"object"
+typeof([]) =>"object"
+typeof(null) =>"object"
+typeof(true) =>"boolean"
+typeof(1)=> "number"
+typeof('1.1')=>"string"
+typeof(1.1)=> "number"
+typeof(Comment)=> "function"
+typeof(array)=> "undefined"
+typeof(Symbol) =>"function"
+typeof(=) =>VM1003:1 Uncaught SyntaxError: Unexpected token '='
+typeof(time) =>"undefined"
+typeof(function) =>VM1127:1 Uncaught SyntaxError: Unexpected token ')'
+typeof(Boolean) =>"function"
+typeof(undefined) => "undefined"
+?
+
