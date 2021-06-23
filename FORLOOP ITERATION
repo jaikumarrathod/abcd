@@ -32,4 +32,3 @@ for(i of obj)
     console.log(i)
 }
 
-4. FOR EACH
