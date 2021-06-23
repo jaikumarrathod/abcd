@@ -1,0 +1,96 @@
+1. FIX HTML:
+   <!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert("I’m JavaScript!");  // DOUBLE QUOTES WERE  NOT THERE IN THE PROBLEM. SO THEY WERE MODIFIED//
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+
+2. Find the culprit and invoke the alert
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”scriptS.js”></script> //THE FILE NAME IS script.js, FIXED IT TO CORRECT NAME
+</body>
+</html>
+
+scripts.js // THE FILE NAME IS NOT SAME//  THATS THE ISSUE HERE
+alert(“I’m invoked!”);
+
+3. Explain the below how it works
+explain.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+script.js
+alert("I'm JavaScript!");
+alert('Hello') // this line is not having semicolon
+alert(`Wor
+ ld`)
+alert(3 +
+1
++ 2); // this is multiple line code and its working  
+SOLUTION:
+IN JS, SEMICOLONS ARE NOT MANDATORY, BUT RECOMMENDED
+
+4. Fix the below to alert sum of two numbers
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+script.js
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(a + b);
+SOLUTION:
+HERE TYPE CASTING HAS TO BE DONE, OTHERWISE CONCATINATION OCCURS
+
+5. fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+script.js
+var a = "2" > "12";
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+SOLUTION:
+HERE STRINGS ARE COMPARED;  REMOVE THE QUOTES
+
+6. How to get the correct score in console.
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”script.js”></script>
+</body>
+</html>
+script.js
+let value = prompt('How many runs you scored in this ball');
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+SOLUTION: TYPECASTING HAS TO BE DONE PRIOR TO USE OF IF
