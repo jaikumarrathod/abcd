@@ -1,0 +1,24 @@
+TASK: PERSON DETAILS USING CLASS
+class persondetails{
+constructor(name,age,dob,gender,place,organisation,missions){
+this.name=name;
+this.age=age;
+this.dob=dob;
+this.gender=gender;
+this.place=place;
+this.organisation=organisation;
+this.missions=missions;
+}
+foo(){
+console.log(this.name,
+this.age,
+this.dob,
+this.gender,
+this.place,
+this.organisation,
+this.missions);
+}
+}
+
+var w = new persondetails("JAMES BOND","45", "FEB-14-1975","MALE","UK","MI6","CLASSIFIED");
+w.foo()
