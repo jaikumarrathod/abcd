@@ -1,0 +1,13 @@
+class movie{
+constructor(x,y,z){
+this.title = x;
+this.studios = y;
+this.rating = z
+}
+foo(){
+console.log(this.title,this.studios,this.rating);
+}
+}
+
+var w = new movie("Casino Royale","Eon Productions", "PG-13")
+w.foo()
