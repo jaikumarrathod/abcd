@@ -1,0 +1,14 @@
+class circle{
+constructor(r){
+this.area = (22/7)*r*r;
+this.circumference = 2*(22/7)*r;
+
+}
+foo(){
+console.log(this.area,this.circumference);
+}
+}
+
+// r represnts radius
+var w = new circle(r)
+w.foo()
