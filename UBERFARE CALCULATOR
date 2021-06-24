@@ -1,0 +1,16 @@
+TASK 1: CREATE UBER CALCULATOR USING CLASS
+class uberfarecalculator{
+constructor(x,y){
+this.mul = x*y;
+}
+foo(){
+console.log(this.mul);
+}
+}
+
+// X REPRESENTS NO. OF KILOMETRES
+//Y REPRESENTS PRICE PER KILOMETER
+var w = new uberfarecalculator(10,5)
+w.foo()
+
+VM2638:6 50
